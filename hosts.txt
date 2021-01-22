@@ -2,7 +2,7 @@
 # Blocking mobile ad providers and some analytics providers
 #
 # Project home page:
-# https://github.com/Jeffreyvanesch/blocklisteffreyvanesch/blocklist
+# https://github.com/Jeffreyvanesch/blocklist/
 #
 # Fetch the latest version of this file:
 # https://raw.githubusercontent.com/Jeffreyvanesch/master/hosts.txt
