@@ -228,6 +228,7 @@
 @@chocolatey.disqus.com^$important	
 @@chocolatey.org^$important	
 @@choosealicense.com^$important	
+@@*.chello.pl^&important
 @@chris.dziemborowicz.com^$important	
 @@christitus.com^$important	
 @@christitus.podia.com^$important	
@@ -486,7 +487,6 @@
 @@hubble.mb-cosmos.com^$important	
 @@humblebundle.com^$important	
 @@hydra.easyanticheat.net^$important	
-@@i*.imageban.ru^$important	
 @@i*.sndcdn.com^$important	
 @@i*.wp.com^$important	
 @@i.ebayimg.com^$important	
@@ -532,6 +532,7 @@
 @@install.speedtest.net^$important	
 @@intel.com^$important	
 @@invent.kde.org^$important	
+@@ipinfo.io^&important
 @@ip.api.rec.adguard.org^$important	
 @@iplists.firehol.org^$important	
 @@ipv4.tracker.harry.lu^$important	
