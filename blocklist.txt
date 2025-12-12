@@ -74,7 +74,7 @@
 ||heap-api.com^
 ||visualwebsiteoptimizer.com^
 ||fundingchoicesmessages.google.com^
-
+||optoutadvertising.com^
 ! ============================================================
 ! MICROSOFT – ADS / TELEMETRY
 ! ============================================================
