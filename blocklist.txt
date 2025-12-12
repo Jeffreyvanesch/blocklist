@@ -52,24 +52,27 @@
 ! ============================================================
 ! GOOGLE / ADS / TRACKING / EXCHANGES
 ! ============================================================
+! Measurement / serving
+||doubleclick.net^
 /\/aclk\?/
 /\/pcs\/click/
 /\/pagead\/aclk/
+/\/ddm\/trackclk/
+/\/ddm\/clk/
 ||googleadservices.com^
-||adservice.google.com^
-||adservice.google.nl^
-||*.doubleclick.net^
-||*.googlesyndication.com^
-||*.googletagmanager.com^
-||*.adtrafficquality.google^
-||*.adnxs.com^
-||*.adnxs-simple.com^
-||*.ad-delivery.net^
+||adservice.google.^
+||doubleclick.net^
+||googlesyndication.com^
+||googletagmanager.com^
+||adtrafficquality.google^
+||adnxs.com^
+||adnxs-simple.com^
+||ad-delivery.net^
 ||ad.360yield.com^
 ||ad.sxp.smartclip.net^
 ||sync.sxp.smartclip.net^
-||*.heap-api.com^
-||*.visualwebsiteoptimizer.com^
+||heap-api.com^
+||visualwebsiteoptimizer.com^
 ||fundingchoicesmessages.google.com^
 
 ! ============================================================
@@ -91,12 +94,9 @@
 ||rubiconproject.com^
 ||fastlane.rubiconproject.com^
 ||bidswitch.net^
-||x.bidswitch.net^
 ||pubmatic.com^
 ||hbopenbid.pubmatic.com^
 ||outbrain.com^
-||paid.outbrain.com^
-||widgets.outbrain.com^
 ||taboola.com^
 ||revjet.com^
 ||casalemedia.com^
@@ -109,13 +109,18 @@
 ||media.adrcdn.com^
 ||target.digitalaudience.io^
 ||track.ghgjarvis.com^
+||pexi.nl^
+||unagi.amazon.^
+||onsleek.ai^
+||strategy3talk.nl^
+||nmo-ep.nl^
 
 ! ============================================================
 ! CRITEO / BRAND METRICS / UX TRACKING
 ! ============================================================
-||*.criteo.com^
+||criteo.com^
 ||grid-bidder.criteo.com^
-||*scorecardresearch.com^
+||scorecardresearch.com^
 ||sb.scorecardresearch.com^
 ||collector.brandmetrics.com^
 ||hotjar.com^
@@ -136,28 +141,19 @@
 ! ISP / STREAMING / CDN / INTERNAL BACKEND ALLOW (ZIGGO / UPC)
 ! ============================================================
 @@||dmdsdp.com^$important
-@@||*.dmdsdp.com^$important
 @@||upcbroadband.com^$important
-@@||*.upcbroadband.com^$important
 @@||ziggogo.tv^$important
-@@||*.ziggogo.tv^$important
-@@||oesp.ziggogo.tv^$important
-@@||*.oesp.ziggogo.tv^$important
 @@||api.frequency.com^$important
 @@||prd-lgi-api.frequency.com^$important
 @@||api2.branch.io^$important
-@@||upc.d2.sc.omtrdc.net^$important
-@@||upc.sc.omtrdc.net^$important
+@@||omtrdc.net^$important
 @@||mopinion.com^$important
-@@||*.mopinion.com^$important
 @@||usabilla.com^$important
-@@||*.usabilla.com^$important
 @@||cs.ns1p.net^$important
 @@||cws.conviva.com^$important
 @@||chello.pl^$important
 @@||local^$important
 @@||nuancemobility.net^$important
-@@||*.nuancemobility.net^$important
 @@||ueiwsp.com^$important
 @@||crashlyticsreports-pa.googleapis.com^$important
 @@||cc-api-data.adobe.io^$important
@@ -166,7 +162,6 @@
 ! EXTRA AD / MALVERTISING CLEANUP (POST-AUDIT)
 ! ============================================================
 ||smartadserver.com^
-||*.smartadserver.com^
 ||throughsheetraise.pro^
 ||acrossoccupyveteran.pro^
 ||mayberryhomes.com^
@@ -180,7 +175,7 @@
 ||msmetrics.ws.sonos.com^
 
 ! ============================================================
-! EXTRA Domains
+! EXTRA ALLOWED DOMAINS
 ! ============================================================
 @@||dellinc.tt.omtrdc.net^$important
 @@||sm.dell.com^$important
@@ -189,7 +184,7 @@
 @@||split.io^$important
 @@||storage.live.com^$important
 @@||cdn.jsdelivr.net^$important
-@@||www.edaa.eu^$important
+@@||edaa.eu^$important
 @@||s.click.aliexpress.com^$important
 @@||ping.ubnt.com^$important
 @@||ping.ui.com^$important
