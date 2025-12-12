@@ -1,0 +1,85 @@
+! ============================================================
+! ZIGGO SUFFIX MIRROR BLOCKLIST 12/12/25
+! Generated from MASTER CUSTOM FILTER LIST: converts ||domain^ -> ||domain.ziggo.nl^
+! Only block-style network rules are mirrored; allowlists/regex/cosmetic rules are skipped.
+! ============================================================
+
+! ============================================================
+! MASTER CUSTOM FILTER LIST 12/12/25
+! AdGuard / uBO compatible
+!
+! Syntax reference:
+!   ||example.org^           → block example.org and subdomains
+!   @@||example.org^         → allow example.org and subdomains
+!   127.0.0.1 example.org    → hosts-style (domain only)
+!   ! or #                   → comment
+!   /regex/                  → regex rule
+! ============================================================
+
+! ============================================================
+! AMAZON – GEO-INDEPENDENT SPONSORED ADS BLOCK
+! ============================================================
+||amazon-adsystem.com.ziggo.nl^
+||axp.amazon-adsystem.com.ziggo.nl^
+||aax-eu.amazon.nl.ziggo.nl^
+||aax-us-east-retail-direct.amazon.com.ziggo.nl^
+||fls-na.amazon.com.ziggo.nl^
+||mads.amazon-adsystem.com.ziggo.nl^
+
+! ============================================================
+! META – ADS / TRACKING (FACEBOOK / INSTAGRAM)
+! ============================================================
+||connect.facebook.net.ziggo.nl^$important
+||graph.facebook.com.ziggo.nl^$important
+||ads.facebook.com.ziggo.nl^$important
+||creative.ak.fbcdn.net.ziggo.nl^$important
+||static.xx.fbcdn.net.ziggo.nl^$important
+
+! ============================================================
+! META – REQUIRED FOR INSTAGRAM EMBEDS / MEDIA (NON-ADS)
+! ============================================================
+
+! ============================================================
+! TIKTOK – ADS / TRACKING
+! ============================================================
+||ads.tiktok.com.ziggo.nl^$important
+||analytics.tiktok.com.ziggo.nl^$important
+||business.tiktok.com.ziggo.nl^$important
+||log.tiktokv.com.ziggo.nl^$important
+||log.byteoversea.com.ziggo.nl^$important
+
+! ============================================================
+! GOOGLE – ADS / TRACKING
+! ============================================================
+||googleadservices.com.ziggo.nl^
+||adservice.google.com.ziggo.nl^
+||adservice.google.nl.ziggo.nl^
+||g.doubleclick.net.ziggo.nl^
+||securepubads.g.doubleclick.net.ziggo.nl^
+||googleads.g.doubleclick.net.ziggo.nl^
+||pagead2.googlesyndication.com.ziggo.nl^
+||googlesyndication.com.ziggo.nl^
+||tpc.googlesyndication.com.ziggo.nl^
+||googletagmanager.com.ziggo.nl^
+
+! ============================================================
+! MICROSOFT – ADS / TELEMETRY
+! ============================================================
+||geo.prod.do.dsp.mp.microsoft.com.ziggo.nl^
+
+! ============================================================
+! ADS / TRACKING – MISC
+! ============================================================
+||umbelderke.nl.ziggo.nl^$important
+
+! ============================================================
+! ISP / STREAMING / CDN / INTERNAL BACKEND ALLOW (ZIGGO / UPC)
+! ============================================================
+||a.rfihub.com.ziggo.nl^
+||flashtalking.com.ziggo.nl^
+||cdn.statically.io.ziggo.nl^
+||optimizationguide-pa.googleapis.com.ziggo.nl^
+||geistm.com.ziggo.nl^
+||shrsl.com.ziggo.nl^
+||alb.reddit.com.ziggo.nl^
+||msmetrics.ws.sonos.com.ziggo.nl^
