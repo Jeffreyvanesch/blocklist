@@ -8,6 +8,7 @@
 !   127.0.0.1 example.org    → hosts-style (domain only)
 !   ! or #                   → comment
 !   /regex/                  → regex rule
+!
 ! ============================================================
 ! ============================================================
 ! AMAZON – GEO-INDEPENDENT SPONSORED ADS BLOCK
@@ -19,6 +20,7 @@
 /sspa\/click/
 ||fls-na.amazon.com^
 ||mads.amazon-adsystem.com^
+
 ! ============================================================
 ! META – ADS / TRACKING (FACEBOOK / INSTAGRAM)
 ! ============================================================
@@ -27,6 +29,7 @@
 ||ads.facebook.com^$important
 ||creative.ak.fbcdn.net^$important
 ||static.xx.fbcdn.net^$important
+
 ! ============================================================
 ! META – REQUIRED FOR INSTAGRAM EMBEDS / MEDIA (NON-ADS)
 ! ============================================================
@@ -36,6 +39,7 @@
 @@||scontent.cdninstagram.com^$important
 @@||instagram.fbsbx.com^$important
 @@||facebook.fbsbx.com^$important
+
 ! ============================================================
 ! TIKTOK – ADS / TRACKING
 ! ============================================================
@@ -44,8 +48,9 @@
 ||business.tiktok.com^$important
 ||log.tiktokv.com^$important
 ||log.byteoversea.com^$important
+
 ! ============================================================
-! GOOGLE / ADS / TRACKING
+! GOOGLE / ADS / TRACKING / EXCHANGES
 ! ============================================================
 ||googleadservices.com^
 ||adservice.google.com^
@@ -55,10 +60,29 @@
 ||googleads.g.doubleclick.net^
 ||ad.doubleclick.net^
 ||adclick.g.doubleclick.net^
+||cm.g.doubleclick.net^
 ||pagead2.googlesyndication.com^
 ||googlesyndication.com^
 ||tpc.googlesyndication.com^
 ||googletagmanager.com^
+||ep1.adtrafficquality.google^
+||ep2.adtrafficquality.google^
+||adnxs.com^
+||acdn.adnxs.com^
+||ib.adnxs.com^
+||ams3-ib.adnxs.com^
+||fra1-ib.adnxs.com^
+||adnxs-simple.com^
+||crcdn01.adnxs-simple.com^
+||ad-delivery.net^
+||ad.360yield.com^
+||ad.sxp.smartclip.net^
+||sync.sxp.smartclip.net^
+||heap-api.com^
+||c.eu.heap-api.com^
+||visualwebsiteoptimizer.com^
+||dev.visualwebsiteoptimizer.com^
+
 ! ============================================================
 ! MICROSOFT – ADS / TELEMETRY
 ! ============================================================
@@ -68,10 +92,59 @@
 @@||arc.msn.com^$important
 @@||browser.events.data.msn.com^$important
 @@||insideruser.microsoft.com^$important
+
 ! ============================================================
-! ADS / TRACKING – MISC
+! ADS / TRACKING / MISC PROGRAMMATIC & NATIVE AD NETWORKS
 ! ============================================================
 ||umbelderke.nl^$important
+||adform.net^
+||s2.adform.net^
+||rubiconproject.com^
+||fastlane.rubiconproject.com^
+||bidswitch.net^
+||x.bidswitch.net^
+||pubmatic.com^
+||hbopenbid.pubmatic.com^
+||outbrain.com^
+||paid.outbrain.com^
+||widgets.outbrain.com^
+||taboola.com^
+||revjet.com^
+||casalemedia.com^
+||htlb.casalemedia.com^
+||indexww.com^
+||js-sec.indexww.com^
+||prebid.optinadserving.com^
+||smartclip.net^
+||aplus.alibaba.com^
+||media.adrcdn.com^
+||target.digitalaudience.io^
+||track.ghgjarvis.com^
+
+! ============================================================
+! CRITEO / BRAND METRICS / UX TRACKING
+! ============================================================
+||criteo.com^
+||grid-bidder.criteo.com^
+||gum.criteo.com^
+||mug.criteo.com^
+||scorecardresearch.com^
+||sb.scorecardresearch.com^
+||collector.brandmetrics.com^
+||hotjar.com^
+||script.hotjar.com^
+||static.hotjar.com^
+||contentsquare.net^
+||c.contentsquare.net^
+||k-aeu1.contentsquare.net^
+||heap-api.com^
+||c.eu.heap-api.com^
+||smartocto.com^
+||api.smartocto.com^
+||ingestion.smartocto.com^
+||tentacles.smartocto.com^
+
+
 ! ============================================================
 ! ISP / STREAMING / CDN / INTERNAL BACKEND ALLOW (ZIGGO / UPC)
 ! ============================================================
@@ -101,6 +174,7 @@
 @@||ueiwsp.com^$important
 @@||crashlyticsreports-pa.googleapis.com^$important
 @@||cc-api-data.adobe.io^$important
+
 ! ============================================================
 ! EXTRA AD / MALVERTISING CLEANUP (POST-AUDIT)
 ! ============================================================
@@ -117,6 +191,7 @@
 ||shrsl.com^
 ||alb.reddit.com^
 ||msmetrics.ws.sonos.com^
+
 ! ============================================================
 ! EXTRA Domains
 ! ============================================================
@@ -132,9 +207,21 @@
 @@||ping.ubnt.com^$important
 @@||ping.ui.com^$important
 @@||cdn.e.boohoo.com^$important
+
 ! ============================================================
 ! REDDIT – ADS / TRACKING ENDPOINTS (network)
 ! ============================================================
 ||alb.reddit.com^
 ||ads-api.reddit.com^
 ||events.reddit.com^
+
+! ============================================================
+! CXense / audience profiling
+! ============================================================
+||cxense.com^
+||cdn.cxense.com^
+||comcluster.cxense.com^
+||p1cluster.cxense.com^
+||scdn.cxense.com^
+
+
