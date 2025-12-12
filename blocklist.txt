@@ -62,21 +62,14 @@
 ||*.googlesyndication.com^
 ||*.googletagmanager.com^
 ||*.adtrafficquality.google^
-||adnxs.com^
-||acdn.adnxs.com^
-||ib.adnxs.com^
-||ams3-ib.adnxs.com^
-||fra1-ib.adnxs.com^
-||adnxs-simple.com^
-||crcdn01.adnxs-simple.com^
-||ad-delivery.net^
+||*.adnxs.com^
+||*.adnxs-simple.com^
+||*.ad-delivery.net^
 ||ad.360yield.com^
 ||ad.sxp.smartclip.net^
 ||sync.sxp.smartclip.net^
-||heap-api.com^
-||c.eu.heap-api.com^
-||visualwebsiteoptimizer.com^
-||dev.visualwebsiteoptimizer.com^
+||*.heap-api.com^
+||*.visualwebsiteoptimizer.com^
 ||fundingchoicesmessages.google.com^
 
 ! ============================================================
@@ -120,11 +113,9 @@
 ! ============================================================
 ! CRITEO / BRAND METRICS / UX TRACKING
 ! ============================================================
-||criteo.com^
+||*.criteo.com^
 ||grid-bidder.criteo.com^
-||gum.criteo.com^
-||mug.criteo.com^
-||scorecardresearch.com^
+||*scorecardresearch.com^
 ||sb.scorecardresearch.com^
 ||collector.brandmetrics.com^
 ||hotjar.com^
