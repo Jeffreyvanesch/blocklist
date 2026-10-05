@@ -10,7 +10,7 @@ Vendor-grouped (Amazon, Meta, TikTok, Google, Microsoft, etc.)
 
 DNS-safe (no cosmetic rules unless explicitly marked)
 
-ISP-aware (Ziggo / UPC suffixes handled correctly)
+ISP-aware (required Ziggo / UPC services explicitly allowed)
 
 Minimal overblocking
 
@@ -40,13 +40,13 @@ Meta (Facebook / Instagram)
 
 Ad delivery, tracking, SDK endpoints
 
-Ziggo and .localdomain suffix variants
+Specific Meta advertising and tracking hostnames
 
 TikTok Ads & Analytics
 
 Ads, analytics, logging endpoints
 
-ISP DNS suffix variants
+Specific TikTok advertising and tracking hostnames
 
 Legacy Ad / Tracking Networks
 
@@ -122,3 +122,5 @@ Vendors change ad routing (e.g. Amazon /sspa)
 ISP behavior changes
 
 Real-world breakage is observed
+
+The obsolete Ziggo DNS-suffix mirror (master-ziggoNL.txt) has been retired. Use blocklist.txt.

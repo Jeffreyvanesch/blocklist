@@ -5,6 +5,17 @@ This project follows a **practical, not pedantic** versioning style.
 
 ---
 
+## [Unreleased]
+### Added
+- Scoped Google reliability telemetry, mobile ad metadata, app event collection, and Nexthink tenant telemetry rules.
+- Intentional mobiletelemetry.ebay.com important allow rule.
+
+### Changed
+- Retired the obsolete Ziggo DNS-suffix mirror and corrected setup documentation.
+- Removed the static.xx.fbcdn.net custom block because it serves Facebook interface assets.
+- Removed the mayberryhomes.com apex block because it hosts legitimate home-builder content.
+- Preserved intentional advertising, analytics, tracking, and allow rules, including existing duplicates pending review.
+
 ## [2025-12-12]
 ### Added
 - Geo-independent Amazon Sponsored Ads blocking

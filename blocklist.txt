@@ -28,7 +28,7 @@
 ||graph.facebook.com^$important
 ||ads.facebook.com^$important
 ||creative.ak.fbcdn.net^$important
-||static.xx.fbcdn.net^$important
+! static.xx.fbcdn.net serves interface assets; keep it unblocked by this list.
 
 ! ============================================================
 ! META – REQUIRED FOR INSTAGRAM EMBEDS / MEDIA (NON-ADS)
@@ -52,6 +52,8 @@
 ! ============================================================
 ! GOOGLE / ADS / TRACKING / EXCHANGES
 ! ============================================================
+! Google reliability telemetry (original hostname; obsolete Ziggo suffix omitted)
+||beacons5.gvt3.com^$important
 ! Measurement / serving
 ||doubleclick.net^
 /\/aclk\?/
@@ -114,6 +116,9 @@
 ||onsleek.ai^
 ||strategy3talk.nl^
 ||nmo-ep.nl^
+! Mobile advertising SDK metadata; keep hostname scope pending apex verification
+||adsmetadata.mobileadexchange.net^$important
+||adsmetadata.startappservice.com^$important
 
 ! ============================================================
 ! CRITEO / BRAND METRICS / UX TRACKING
@@ -135,6 +140,10 @@
 ||api.smartocto.com^
 ||ingestion.smartocto.com^
 ||tentacles.smartocto.com^
+! Mobile app event collection
+||event-portal.dailyinnovation.biz^$important
+! Nexthink tenant telemetry; blocking disables collection for this tenant
+||vodafoneziggoprod.data.eu.nexthink.cloud^$important
 
 
 ! ============================================================
@@ -164,7 +173,6 @@
 ||smartadserver.com^
 ||throughsheetraise.pro^
 ||acrossoccupyveteran.pro^
-||mayberryhomes.com^
 /ssclick/
 ||a.rfihub.com^
 ||flashtalking.com^
@@ -189,6 +197,8 @@
 @@||ping.ubnt.com^$important
 @@||ping.ui.com^$important
 @@||cdn.e.boohoo.com^$important
+! Intentional user-supplied eBay telemetry exception
+@@||mobiletelemetry.ebay.com^$important
 
 ! ============================================================
 ! REDDIT – ADS / TRACKING ENDPOINTS (network)
